@@ -76,8 +76,9 @@ public class Loop1_ex2 {
 				int yid = 1234; // 회원가입시 입력한 id
 				int ypw = 5678;// 회원가입시 입력한 pw
 				
-				
-				for(int count =0; count<5; count++) {
+				boolean  check =false;
+				int count =0;
+				for(count =0; count<5; count++) {
 					System.out.println("id 입력");
 					int id = sc.nextInt();
 					System.out.println("pw 입력");
@@ -85,7 +86,10 @@ public class Loop1_ex2 {
 					
 					if(id==yid&&pw==ypw) {
 						System.out.println("로그인 성공");
+						check =! check; //! ~ 같지 않음 반대  
 						count=1000;
+						break;
+						
 					}else {
 						System.out.println("로그인 실패");
 					}
@@ -95,6 +99,21 @@ public class Loop1_ex2 {
 				//1.로그인이 성공
 				//2.로그인이 5번 전부 실패
 				
+				
+				//if(count==5) {
+				//	System.out.println("은행 방문");
+				//}else{
+					//System.out.println("게임 시작");
+				//}
+				
+				if(check) {
+					System.out.println("게임 시작");
+				}else {
+					
+					System.out.println("은행 방문");
+				}
+					
+					
 				System.out.println("Finish");
 				}
 }
