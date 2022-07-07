@@ -1,4 +1,5 @@
-package com.naver.org;
+package org.study3;
+
 
 import java.util.Scanner;
 

@@ -1,4 +1,5 @@
-package com.naver.org;
+package org.study3;
+
 
 public class control4 {
 public static void main(String[] args) {
