@@ -67,7 +67,5 @@ public class Contro1_ex1 {
 	System.out.println(sum);
 
 	}
-
-//study
-	
+//ddd
 }

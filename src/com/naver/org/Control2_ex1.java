@@ -35,7 +35,7 @@ public class Control2_ex1 {
 				
 				else { 	
 					
-					int tax6=(int)(sal*3.3);
+					sal= sal - (int)(sal*0.033);
 				
 				}
 				
