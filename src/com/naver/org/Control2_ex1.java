@@ -22,8 +22,8 @@ public class Control2_ex1 {
 				if (select==1) {
 					
 					
-					sal = (int) (sal*0.99);
-					sal = (int) (sal*0.986);
+					/*sal = (int) (sal*0.99);
+					sal = (int) (sal*0.986);*/
 					
 					int tax1= (int) (sal*0.01);
 					int tax2=(int) (sal*0.014);

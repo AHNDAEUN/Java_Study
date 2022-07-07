@@ -24,7 +24,7 @@ public class Control2_ex2 {
 		
 		//ch num= a
 		int result = ch + num;
-		//소문자가 덤위를 벗어날을 때 제어해줌
+		//소문자가 범위를 벗어날을 때 제어해줌
 		if(result>'z') {// int영역이지만 primitive영역은 자유롭게 형변환 가능
 				result= result-'z'-1;//2
 				result= 'a'+result;

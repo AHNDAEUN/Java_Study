@@ -15,7 +15,7 @@ public class control_3 {
 		int select = sc.nextInt();
 		
 		
-		int num =1; // 에러: 타입,변수의 중복
+		//int num =1; 한번 더 쓰면 에러: 타입,변수의 중복
 		
 		
 		if (select==1) {
