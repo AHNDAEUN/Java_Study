@@ -22,7 +22,7 @@ public class Loop4 { // 이중 for문
 			}
 			System.out.println();// enter치고 내려가
 				
-			
+			///
 		}
 		
 		System.out.println("====================================");
