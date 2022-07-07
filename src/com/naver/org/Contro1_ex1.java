@@ -68,6 +68,6 @@ public class Contro1_ex1 {
 
 	}
 
-
+//study
 	
 }
