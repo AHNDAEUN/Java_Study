@@ -4,11 +4,14 @@ import java.util.Scanner;
 
 public class Control2_ex2 {
 
+	private static char a;
+
 	public static void main(String[] args) {
 		
 		
 		//char ch ='b'; // -> a
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println(" 1-5사이의 숫자 입력 ");
 		int num = sc.nextInt();//1-5;
 		System.out.println(" 알파벳을 입력 ");
@@ -20,12 +23,26 @@ public class Control2_ex2 {
 		//num:2 ch:z 출력: b
 		
 		//ch num= a
-		System.out.println("ch:"+ch);
-				
-	//	if() {
+		int result = ch + num;
+		//소문자가 덤위를 벗어날을 때 제어해줌
+		if(result>'z') {// int영역이지만 primitive영역은 자유롭게 형변환 가능
+				result= result-'z'-1;//2
+				result= 'a'+result;
+					//'a'+result-1;/ 96+result;
 
-			
-	//	}else { else { System.out.println(" c ");
+		}
+		
+		//대문자가 범위를 벗어났을 때
+		
+		if (result>'Z'&& result <'a') {
+			result = result-'Z'-1;
+			result = 'A'+result;
+			}
+		
+		
+		ch= (char)result;
+		System.out.println("ch:"+ch);
+		//num: 2 ch :z
 			
 			
 		}
@@ -33,4 +50,3 @@ public class Control2_ex2 {
 	
 	
 	}
-
