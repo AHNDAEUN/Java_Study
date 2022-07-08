@@ -10,6 +10,7 @@ public class Loop4_ex2 {
 		// 총알:
 		// 탄창:30발 3개
 		// 1. 단발 30발 2. 점사 10발
+		 
 		
 		Scanner sc= new Scanner( System.in );
 		
@@ -45,7 +46,7 @@ public class Loop4_ex2 {
 }
 
 //-------------------------------------------
-//드레그 +alt + 화살표 복사 옮기기
+//**드레그 +alt + 화살표 복사 옮기기
 
 
 //// (int mag=0; mag <3; mag++){
