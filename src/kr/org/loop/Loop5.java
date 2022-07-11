@@ -15,7 +15,8 @@ public static void main(String[] args) { // =>단축키 main+ ctrl +spacebar
 //	
 //}
 	
-		boolean (check){
+		boolean check= true;
+		while(check){
 		System.out.println( " 1. 성적입력 ");
 		System.out.println( " 2. 총점계산 ");
 		System.out.println( " 3. 평균계산 ");

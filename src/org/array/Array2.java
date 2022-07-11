@@ -1,5 +1,7 @@
 package org.array;
 
+import java.util.Scanner;
+
 public class Array2 {
 
 	public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class Array2 {
 		
 	System.out.println(nums [0]); //인덱스에 값을 넣지 않아도 별도의 지시가 없으면 자동으로 초기화를 진행 (= 0)
 	System.out.println(names [0]);
-	Scanner [] sc = new Scanner[2];
+	Scanner [] sc = new Scanner[2]; 
 	
 	
 	int [] names2 = {1,4,56}; // 배열 3칸을 만들면서 0번 인덱스=1, 1번 인덱스 =4 2번 인덱스 =56
